@@ -246,6 +246,10 @@ dependencies {
           .into(holder.image)
 ```
 
+
+
+![](..\图片加载\pic\1657536118686.jpg)
+
 #### 12.2  设置圆角
 
 ```kotlin
@@ -257,6 +261,10 @@ Glide.with(context)
         .into(holder.image)
 ```
 
+![](..\\图片加载\pic\1657536223159.jpg)
+
+
+
 #### 12.3图片截取
 
 ```kotlin
@@ -267,6 +275,8 @@ CropTop -> Glide.with(context)
         .into(holder.image)
 ```
 
+![](..\\图片加载\pic\1657536263280.png)
+
 #### 12.4 正方形
 
 ```kotlin
@@ -276,6 +286,8 @@ CropTop -> Glide.with(context)
   .into(holder.image)
 ```
 
+![](..\\图片加载\pic\1657536429588.jpg)
+
 #### 12.5 圆形
 
 ```kotlin
@@ -284,6 +296,10 @@ Glide.with(context)
   .apply(bitmapTransform(CropCircleTransformation()))
   .into(holder.image)
 ```
+
+![1657536176604](..\图片加载\pic\1657536176604.jpg)
+
+
 
 #### 12.6 加border 圆形
 
@@ -295,6 +311,8 @@ Glide.with(context)
   .into(holder.image)
 ```
 
+![](..\图片加载\pic\1657536464457.jpg)
+
 #### 12.7  颜色过滤
 
 ```kotlin
@@ -304,6 +322,8 @@ Glide.with(context)
   .into(holder.image)
 ```
 
+
+
 #### 12.8 黑白
 
 ```kotlin
@@ -312,6 +332,10 @@ Glide.with(context)
   .apply(bitmapTransform(GrayscaleTransformation()))
   .into(holder.image)
 ```
+
+
+
+![](..\图片加载\pic\1657536542930.jpg)
 
 #### 12.9 模糊
 
@@ -328,6 +352,10 @@ Glide.with(context)
         .into(holder.image)
 ```
 
+
+
+![](..\图片加载\pic\1657536616009.jpg)
+
 #### 12.10  Toon 油画
 
 ```kotlin
@@ -336,6 +364,8 @@ Glide.with(context)
   .apply(bitmapTransform(ToonFilterTransformation()))
   .into(holder.image)
 ```
+
+![](..\图片加载\pic\1657536645181.jpg)
 
 #### 12.11  Sepia 深褐色
 
@@ -346,6 +376,8 @@ Glide.with(context)
   .into(holder.image)
 ```
 
+![](..\图片加载\pic\1657536668344.jpg)
+
 #### 12.12  明暗对比 
 
 ```kotlin
@@ -355,7 +387,7 @@ Glide.with(context)
   .into(holder.image)
 ```
 
-
+![](..\图片加载\pic\1657536675944.jpg)
 
 #### 12.13  Invert
 
@@ -366,7 +398,7 @@ Glide.with(context)
   .into(holder.image)
 ```
 
-
+![](..\图片加载\pic\1657536728124.jpg)
 
 #### 12.14  Pixel
 
@@ -377,6 +409,8 @@ Glide.with(context)
   .into(holder.image)
 ```
 
+![](..\图片加载\pic\1657536733876.png)
+
 #### 12.15  素描  Sketch
 
 ```kotlin
@@ -385,6 +419,8 @@ Glide.with(context)
   .apply(bitmapTransform(SketchFilterTransformation()))
   .into(holder.image)
 ```
+
+![](..\图片加载\pic\1657536740648.png)
 
 #### 12.16  Swirl 旋转
 
@@ -396,7 +432,7 @@ Glide.with(context)
   .into(holder.image)
 ```
 
-
+![](..\图片加载\pic\1657536877850.png)
 
 #### 12.17   Brightness 亮 
 
@@ -409,6 +445,8 @@ Glide.with(context)
   .into(holder.image)
 ```
 
+![](..\图片加载\pic\1657536883712.png)
+
 #### 12.18  Kuawahara
 
 ```kotlin
@@ -417,6 +455,8 @@ Glide.with(context)
   .apply(bitmapTransform(KuwaharaFilterTransformation(25)).dontAnimate())
   .into(holder.image)
 ```
+
+![](..\图片加载\pic\1657536890440.png)
 
 #### 12.19  Vignette  插图
 
@@ -428,7 +468,7 @@ Glide.with(context)
   .into(holder.image)
 ```
 
-
+![](\图片加载\pic\1657536984582.jpg)
 
 中文文档 
 
